@@ -28,10 +28,9 @@ void setup() {
   PinMode(SlasherSpatulaPin, INPUT);
   PinMode(LightsLEDPin, OUTPUT);
   PinMode(PhoneLEDPin, OUTPUT);
-
-
 // RG did this
-  
+//Cullen did this
+//Anthony did this  
 }
 
 void loop() {
