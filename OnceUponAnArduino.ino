@@ -28,7 +28,7 @@ void setup() {
   PinMode(SlasherSpatulaPin, INPUT);
   PinMode(LightsLEDPin, OUTPUT);
   PinMode(PhoneLEDPin, OUTPUT);
-
+//Cullen did this
 
 
   
