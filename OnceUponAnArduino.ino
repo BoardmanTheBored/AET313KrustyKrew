@@ -11,12 +11,12 @@ const int SlasherSpatulaPin = 6;
 const int LightsLEDPin = 7;
 const int PhoneLEDPin = 8;
 
-Servo ChestLid = 9;
-Servo SpongebobDoor = 10;
-Servo Bus = 11;
-Servo SlasherTrack = 12;
-//Servo FrontDoors = 14;
-Servo Curtains = 13;
+Servo ChestLid;
+Servo SpongebobDoor;
+Servo Bus;
+Servo SlasherTrack;
+//Servo FrontDoors;
+Servo Curtains;
 
 void setup() {
   pinMode(SignSwitchPin, INPUT);
@@ -29,7 +29,11 @@ void setup() {
   pinMode(LightsLEDPin, OUTPUT);
   pinMode(PhoneLEDPin, OUTPUT);
 
-
+  ChestLid.attach(9);
+  SpongebobDoor.attach(10);
+  Bus.attach(11);
+  SlasherTrack.attach(12);
+  Curtains.attach(13);
 
   
 }
